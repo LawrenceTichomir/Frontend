@@ -40,6 +40,11 @@ const router = createRouter({
       path: '/b-component/:username',
       name: 'b-component',
       component: BView
+    },
+    {
+      path: '/tihi',
+      name: 'tihi',
+      component: TihiView
     }
   ]
 })
